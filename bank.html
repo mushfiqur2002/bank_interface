@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Bank Interface</title>
+    <link rel="stylesheet" href="bankStyle.css">
+</head>
+<body>
+    <div class="bank_container">
+        <section id="title">
+            <h1>let's get some money</h1>
+        </section>
+        <section id="display">
+            <div class="deposit box" style="background: lightslategrey;">
+                <span>Deposit</span>
+                <span>$<b class="money">5</b>
+            </div>
+            <div class="Withdraw box" style="background: lightsteelblue;">
+                <span>Withdraw</span>
+                <span>$<b class="money">5</b>
+            </div>
+            <div class="Balance box" style="background: darkslategrey;">
+                <span>Balance</span>
+                <span>$<b class="money">5</b>
+            </div>
+        </section>
+        <section id="enterAmount">
+            <div class="Withdraw_amount box" style="background: darkslateblue;">
+                <p>Please Withdraw</p>
+                <input type="number" placeholder="enter amount">
+                <div>
+                    <button id="WithdrawBtn">Withdraw</button>
+                </div>
+            </div>
+            <div class="Deposit_amount box" style="background: slategray;">
+                <p>Please Deposit</p>
+                <input type="number" placeholder="enter amount">
+                <div>
+                    <button onclick="depositFun()">Deposit</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="bankScript.js"></script>
+</body>
+</html>

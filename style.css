@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#first h1{
+    font-size: 3rem;
+    padding: 50px 50px;
+}
+#logIn{
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: lightslategray;
+}
+#logIn h1{
+    font-size: 3rem;
+    padding: 40px;
+}
+#logIn .container{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#logIn .container div{
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#logIn .container div label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+#logIn .container div input{
+    width: 250px;
+    font-size: 1rem;
+    padding: 10px 5px 10px 15px;
+    border-radius: 50px;
+    border: 5px;
+    outline: none;
+
+}
+#logIn .container .btn button{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}

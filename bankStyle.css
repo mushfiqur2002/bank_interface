@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+}
+.bank_container{
+    width: 100%;
+    height: 85%;
+    background: lightblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.bank_container #title h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.bank_container #display{
+    width: 90%;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.bank_container #display .box{
+    width: calc(100%/3);
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius:15px;
+}
+.bank_container #display .box span:first-child{
+    font-size: 2rem;
+}
+.bank_container #display .box span:last-child{
+    display: flex;
+    gap: 5px;
+}
+.bank_container #display .box span:last-child b{
+    font-size: 2.1rem;
+}
+.bank_container #enterAmount{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+.bank_container #enterAmount .box{
+    width: calc(100%/2);
+    height: 190px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rebeccapurple;
+    border-radius: 15px;
+    gap: 15px;
+}
+.bank_container #enterAmount .box p{
+    font-size: 1.5rem;
+}
+.bank_container #enterAmount .box input{
+    font-size: 1rem;
+    padding: 5px 15px;
+}
+.bank_container #enterAmount .box div button{
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
