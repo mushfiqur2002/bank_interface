@@ -63,3 +63,26 @@ body{
     border-radius: 50px;
     cursor: pointer;
 }
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 650px){
+    #logIn h1{
+        font-size: 2rem;
+    }
+    #logIn{
+        width: 100%;
+        align-items: flex-start;
+    }
+    #logIn .container{
+        width: 100%;
+        padding-bottom: 50px;
+        overflow: hidden;
+    }
+    #logIn .container div{
+        padding-left: 40px;
+    }
+}
